@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Release\net5.0-windows\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net5.0-windows\ConnecBddAvengers.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".vs\tasks.vs.json" />
+    <Content Include=".vs\VSWorkspaceState.json" />
+    <Content Include="bin\Debug\net5.0-windows\ConnecBddAvengers.deps.json" />
+    <Content Include="bin\Debug\net5.0-windows\ConnecBddAvengers.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\net5.0-windows\ConnecBddAvengers.runtimeconfig.json" />
+    <Content Include="obj\ConnecBddAvengers.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net5.0-windows\ConnecBddAvengers.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net5.0-windows\ConnecBddAvengers.designer.deps.json" />
+    <Content Include="obj\Debug\net5.0-windows\ConnecBddAvengers.designer.runtimeconfig.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\ConnecBddAvengers\config\applicationhost.config" />
+    <None Include=".vs\ConnecBddAvengers\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include="bin\Debug\net5.0-windows\ConnecBddAvengers.dll" />
+    <None Include="bin\Debug\net5.0-windows\ConnecBddAvengers.exe" />
+    <None Include="bin\Debug\net5.0-windows\ConnecBddAvengers.pdb" />
+    <None Include="bin\Debug\net5.0-windows\ref\ConnecBddAvengers.dll" />
+    <None Include="bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net5.0-windows\System.Data.SqlClient.dll" />
+    <None Include="ConnecBddAvengers.sln" />
+    <None Include="obj\ConnecBddAvengers.csproj.nuget.g.props" />
+    <None Include="obj\ConnecBddAvengers.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net5.0-windows\apphost.exe" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.assets.cache" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.csproj.CopyComplete" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.dll" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.Form2.resources" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net5.0-windows\ConnecBddAvengers.pdb" />
+    <None Include="obj\Debug\net5.0-windows\ref\ConnecBddAvengers.dll" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net5.0-windows\ConnecBddAvengers.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net5.0-windows\ConnecBddAvengers.GeneratedMSBuildEditorConfig.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".vs\ConnecBddAvengers\v16\" />
+    <Folder Include="bin\Release\net5.0-windows\ref\" />
+    <Folder Include="obj\Release\net5.0-windows\ref\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
